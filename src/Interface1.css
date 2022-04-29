@@ -1,0 +1,87 @@
+#interface1{
+  width: 100%;
+  float: left;
+  padding: 50px;
+}
+.leftdiv{
+  text-align: left;
+  float: left;
+  width: 35%;
+  height:max-content;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px #cacaca solid;
+}
+.rightdiv{
+  text-align: left;
+  float: left;
+  width: 60%;
+  height:max-content;
+  background-color: rgb(64, 111, 172);
+  margin-left: 50px;
+  padding: 20px;
+  box-shadow: -10px 15px 30px rgba(58, 58, 58, 0.548);
+}
+.inputs{
+  font-size: 16px;
+  background-color: white;
+  height:max-content;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px #cacaca solid;
+  margin-top: 5px;
+}
+.inputLable{
+  color: #414141;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.Addbtn{
+  color: white;
+  font-size: 18px;
+  background-color: rgba(61, 111, 190, 0.849);
+  margin-top: 45px;
+  padding: 5px 20px;
+  font-weight: 550;
+  border: 0px;
+  border-radius: 5px;
+}
+.question{
+  font-size: 22px;
+  font-weight: 550;
+  color: white;
+  margin: 0px;
+}
+.options{
+  float: left;
+  width:max-content;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  margin: 0px;
+  margin-left: 5px;
+}
+#questionContainer{
+  float: left;
+  height: max-content;
+  width:100%;
+  border: 2px #cacaca solid;
+}
+.questionNumber{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  height:auto;
+  margin: 0px 5px;
+}
+.opd{
+  float: left;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 50px;
+}
